@@ -1,4 +1,4 @@
-package introducaoPOO.dominio.exercicioPOO.carros;
+package introducaoPOO.exercicioPOO.carros;
 
 public class carroInterface {
     //Crie uma classe carro com os seguintes atributos: MARCA, MODELO, ANO

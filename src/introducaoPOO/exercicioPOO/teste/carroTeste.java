@@ -1,6 +1,6 @@
-package introducaoPOO.dominio.exercicioPOO.teste;
+package introducaoPOO.exercicioPOO.teste;
 
-import introducaoPOO.dominio.exercicioPOO.carros.carroInterface;
+import introducaoPOO.exercicioPOO.carros.carroInterface;
 
 public class carroTeste {
     public static void main(String[] args) {

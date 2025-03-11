@@ -1,4 +1,4 @@
-package introducaoPOO.dominio.test01;
+package introducaoPOO.test01;
 
 import introducaoPOO.dominio.Estudante;
 
