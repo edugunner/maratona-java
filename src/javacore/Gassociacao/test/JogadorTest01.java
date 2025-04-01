@@ -1,6 +1,6 @@
-package javacore.Gassociação.test;
+package javacore.Gassociacao.test;
 
-import javacore.Gassociação.dominio.Jogador;
+import javacore.Gassociacao.dominio.Jogador;
 
 public class JogadorTest01 {
     public static void main(String[] args) {
