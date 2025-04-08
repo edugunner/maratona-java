@@ -7,6 +7,7 @@ import javacore.GassociacaoExercicio.dominio.Seminario;
 
 public class Gerenciador {
     public static void main(String[] args) {
+
         Aluno aluno1 = new Aluno("João", 16);
         Aluno aluno2 = new Aluno("Augusto", 15);
         Aluno[] grupo1 = {aluno1,aluno2};

@@ -5,6 +5,17 @@ public class Aluno {
     private int idade;
     private String seminario;
 
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public Aluno(String nome, int idade, String seminario) {
+        this.nome = nome;
+        this.idade = idade;
+        this.seminario = seminario;
+    }
+
     public void imprime() {
         System.out.println("Aluno");
         System.out.println(nome);
@@ -17,10 +28,6 @@ public class Aluno {
         System.out.println("--------");
     }
 
-    public Aluno(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
 
     public String getNome() {
         return nome;
