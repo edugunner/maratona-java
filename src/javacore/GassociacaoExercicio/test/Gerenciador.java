@@ -5,18 +5,65 @@ import javacore.GassociacaoExercicio.dominio.Local;
 import javacore.GassociacaoExercicio.dominio.Professor;
 import javacore.GassociacaoExercicio.dominio.Seminario;
 
+import java.util.Scanner;
+
 public class Gerenciador {
     public static void main(String[] args) {
 
-        Aluno aluno1 = new Aluno("João", 16);
-        Aluno aluno2 = new Aluno("Augusto", 15);
+        Scanner sc = new Scanner(System.in);
+
+        Aluno aluno1 = new Aluno();
+        Aluno aluno2 = new Aluno();
+
+        System.out.println("----GRUPO 1----");
+        System.out.print("Insira o nome do Aluno: ");
+        String nome = sc.nextLine();
+
+        System.out.print("Insira a idade do Aluno: ");
+        int idade = sc.nextInt();
+
+
+
+        System.out.print("Insira o nome do Aluno: ");
+        String nome2 = sc.next();
+
+
+        System.out.print("Insira a idade do Aluno: ");
+        int idade2 = sc.nextInt();
+
+        aluno1.setNome(nome);
+        aluno1.setIdade(idade);
+        aluno2.setNome(nome2);
+        aluno2.setIdade(idade2);
+
+
+
         Aluno[] grupo1 = {aluno1,aluno2};
 
-        Aluno aluno3 = new Aluno("Guilherme", 14);
-        Aluno aluno4 = new Aluno("Joana", 13);
+        Aluno aluno3 = new Aluno();
+        Aluno aluno4 = new Aluno();
+
+        System.out.println("----GRUPO 2----");
+        System.out.print("Insira o nome do Aluno: ");
+        String nome3 = sc.next();
+
+        System.out.print("Insira a idade do Aluno: ");
+        int idade3 = sc.nextInt();
+
+        aluno3.setNome(nome3);
+        aluno3.setIdade(idade3);
+
+        System.out.print("Insira o nome do Aluno: ");
+        String nome4 = sc.next();
+
+        System.out.print("Insira a idade do Aluno: ");
+        int idade4 = sc.nextInt();
+
+        aluno4.setNome(nome4);
+        aluno4.setIdade(idade4);
+
         Aluno[] grupo2 = {aluno3,aluno4};
 
-        Aluno aluno5 = new Aluno("Roberto", 18);
 
         Professor professor = new Professor("Alberto", "Geografia");
 
@@ -49,7 +96,9 @@ public class Gerenciador {
         aluno2.imprime();
         aluno3.imprime();
         aluno4.imprime();
-        aluno5.imprime();
+
+
+
 
 
     }

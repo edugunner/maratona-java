@@ -10,6 +10,9 @@ public class Aluno {
         this.idade = idade;
     }
 
+    public Aluno() {
+    }
+
     public Aluno(String nome, int idade, String seminario) {
         this.nome = nome;
         this.idade = idade;
