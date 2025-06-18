@@ -1,4 +1,4 @@
-package Tresourcebundle.test;
+package javacore.Tresourcebundle.test;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
